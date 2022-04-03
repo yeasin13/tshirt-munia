@@ -9,7 +9,9 @@ const Cart = ({cart, handleRemoveFromCart}) => {
         command = <p>Please Add at least one Items</p>
     }
     else if(cart.length === 1){
-        command = <p>Please add more</p>
+        command = <div>
+            <h5></h5>
+        </div>
     }
     else{
         command = <p><small>Thanks for adding item</small></p>
